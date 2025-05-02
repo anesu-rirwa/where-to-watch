@@ -1,0 +1,155 @@
+/* Reset and base styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: '#f8fafc';
+    color: '#1f2937';
+    line-height: 1.6;
+    padding: 50px;
+}
+
+/* Header styles */
+header {
+    background-color: '#1f2937';
+    color: '#ffffff';
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: '#1f2937';
+    border-style: solid;
+    border-radius: 2px;
+    border-color: brown;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    color: '#000000';
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+}
+
+.intro-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro-paragraph {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-heading {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    width: 20rem;
+    padding: 10px;
+    border: 1px solid '#ccc';
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: '#1f2937';
+    color: '#ffffff';
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: '#374151';
+}
+
+.country-select {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid '#ccc';
+    border-radius: 4px;
+}
+
+/* Movie card styles */
+.movies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-card {
+    background-color: '#1e1e1e';
+    border: 1px solid '#ccc';
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.movie-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.movie-card p {
+    font-size: 1rem;
+    color: '#555';
+}
+
+.movie-card a {
+    text-decoration: none;
+    color: '#1f2937';
+}
+
+.movie-card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: '#1f2937';
+    color: '#ffffff';
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

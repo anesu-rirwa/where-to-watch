@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Where To Watch</title>
+        <link rel="stylesheet" href="../static/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Where To Watch</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#url" class="nav-link">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#url" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="search">
+                <div>
+                    <h2 class="intro-heading">Welcome to Where To Watch 📺🍿</h2>
+                    <p class="intro-paragraph">Your one-stop platform for finding where to watch your favorite movies and shows. Search for Movies and Shows.</p>
+                </div>
+    
+                <div class="search-container">
+                    <form method="POST">
+                        <input type="text" id="search" name="search" class="search-input" required>
+                        <button type="submit" class="search-button">Search</button>
+                    </form>
+
+                    <div>
+                        <label for="search" class="search-label">Select Country</label>
+
+                        <form method="POST">
+                            <Select id="country" name="country" class="country-select">
+                                <option value="us">United States</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="ca">Canada</option>
+                                <option value="au">Australia</option>
+                                <option value="in">India</option>
+                            </Select>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movies">
+                <div class="movie-card">
+                    <img src="../static/images/movie-poster.jpg" alt="Movie Poster" class="movie-poster">
+
+                    <h3 class="movie-title">Movie Title</h3>
+                    <p class="movie-description">Description of the movie goes here. This is a brief overview of the movie's plot and main characters.</p>
+                    <p class="movie-genre">Genre: Action, Adventure</p>
+                    <p class="movie-release-date">Where to watch: Netflix</p>
+                    <a href="#url" class="watch-link">Watch Trailer</a>
+                </div>
+
+                <div class="movie-card">
+                    <img src="../static/images/movie-poster.jpg" alt="Movie Poster" class="movie-poster">
+                    
+                    <h3 class="movie-title">Movie Title</h3>
+                    <p class="movie-description">Description of the movie goes here. This is a brief overview of the movie's plot and main characters.</p>
+                    <p class="movie-genre">Genre: Action, Adventure</p>
+                    <p class="movie-release-date">Where to watch: Netflix</p>
+                    <a href="#url" class="watch-link">Watch Trailer</a>
+                </div>
+
+                <div class="movie-card">
+                    <img src="../static/images/movie-poster.jpg" alt="Movie Poster" class="movie-poster">
+                    
+                    <h3 class="movie-title">Movie Title</h3>
+                    <p class="movie-description">Description of the movie goes here. This is a brief overview of the movie's plot and main characters.</p>
+                    <p class="movie-genre">Genre: Action, Adventure</p>
+                    <p class="movie-release-date">Where to watch: Netflix</p>
+                    <a href="#url" class="watch-link">Watch Trailer</a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Where To Watch. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -6,14 +6,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_KEY = os.getenv("TMDB_API_KEY")
-# READ_ACCESS_TOKEN = os.getenv("TMDB_READ_ACCESS_TOKEN")
-BASE_URL = "https://api.themoviedb.org/3/search/authentication"
-
-import requests
 
 url = "https://api.themoviedb.org/3/search/movie"
 params = {
-    "query": "Inception",           # ← This is the movie title you're searching for
+    "query": "Conc",           # ← This is the movie title you're searching for
     "include_adult": False,
     "language": "en-US",
     "page": 1
